@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff8f6">
+  <title>90° Cake Shop | Our Cakes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="cakes" id="top">
+
+  <div id="site-header"></div>
+
+  <main>
+    <section class="page-hero">
+      <a href="index.html" class="back-link" data-back-link>← Back</a>
+      <p class="eyebrow">OUR COLLECTION</p>
+      <h1>Choose Your <span>Favourite Cake</span></h1>
+      <p>Find the perfect cake for your celebration.</p>
+    </section>
+
+    <section class="section">
+      <div class="filters" aria-label="Filter cakes">
+        <button class="filter-btn active" data-category="All" aria-pressed="true">All Cakes</button>
+        <button class="filter-btn" data-category="Chocolate" aria-pressed="false">Chocolate</button>
+        <button class="filter-btn" data-category="Fruit" aria-pressed="false">Fruit</button>
+        <button class="filter-btn" data-category="Classic" aria-pressed="false">Classic</button>
+      </div>
+
+      <div class="products" id="productList"></div>
+      <p class="notice">Sample products and prices. Update these in script.js to match the actual shop menu.</p>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="script.js"></script>
+</body>
+</html>
